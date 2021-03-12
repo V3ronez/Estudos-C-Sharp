@@ -52,5 +52,25 @@ namespace Componentes {
             F_ComboBox f_ComboBox = new F_ComboBox();
             f_ComboBox.ShowDialog();
         }
+
+        private void toolStripMenuItem6_Click(object sender, EventArgs e) {
+            F_DateTimePicker f_DateTimePicker = new F_DateTimePicker();
+            f_DateTimePicker.ShowDialog();
+        }
+
+        private void toolStripMenuItem7_Click(object sender, EventArgs e) {
+            F_LinkLabel f_LinkLabel = new F_LinkLabel();
+            f_LinkLabel.ShowDialog();
+        }
+
+        private void toolStripMenuItem8_Click(object sender, EventArgs e) {
+            F_ListBox f_ListBox = new F_ListBox();
+            f_ListBox.ShowDialog();
+        }
+
+        private void toolStripMenuItem9_Click(object sender, EventArgs e) {
+            F_ListView f_ListView = new F_ListView();
+            f_ListView.ShowDialog();
+        }
     }
 }
